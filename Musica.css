@@ -1,0 +1,781 @@
+.limpiar{
+	clear:both;
+}
+body{
+
+  background-image:url(ABB.jpg);
+
+  -webkit-background-size: 100% 100%;           /* Safari 3.0 */
+      -moz-background-size: 100% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+           -o-background-size: 100% 100%;           /* Opera 9.5 */
+               background-size: 10% 10%;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+ }
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	margin:6px;
+}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000;
+	margin:6px;
+}
+.textopie{
+	color:#FFF;
+	text-align:center;
+}
+a.enlacecpw{
+	color:#FEFEFE;
+	text-decoration:none;
+}
+.titulos-internos{
+	font-family:"Times New Roman", Times, serif;
+	font-size:59px;
+	color:#999999;
+	border-bottom:9px #00C6F7 solid;
+	display:block;
+}
+
+/*---- Maquetacion -----*/
+#contenedor{
+	width:1000px;
+	margin:0 auto;
+}
+#menu{
+	height:150px;
+	margin-top:135px;
+	padding-left:79px;
+}
+#piepagina{
+	height:112px;
+	margin-top:15px;
+}
+/*---- Menu principal -----*/
+#menu ul{
+	margin:-150;
+	padding:-10;
+	list-style:none;
+
+	/*-----------------------------Bandas--------------------------*/
+
+}
+#menu li a #icono12{
+	width:1060px;
+	height:80px;
+	display:block;
+	border-radius:50px;
+	float:left;
+	font-family:"Autumn", Arial, Helvetica, sans-serif;
+	background:linear-gradient(top,#000,#2E07D3);
+	background:-moz-linear-gradient(top,#000,#2E07D3);
+	background:-o-linear-gradient(top,#000,#2E07D3);
+	background:-ms-linear-gradient(top,#000,#2E07D3);
+	background:-webkit-linear-gradient(top,#000,#2E07D3);
+	font-size:50px;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	margin:12px;
+	padding-top:8px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono12{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3)rotate(360deg);
+
+/*-------------Banda ms------------*/
+}
+#menu li a #icono1{ 
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(MS.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px; 
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono1{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+	
+
+	/*-----------banda los recoditos----------*/
+
+}
+#menu li a #icono2{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(Banda-Los-Recoditos.jpg);
+
+	border-radius:00px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono2{transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+/*-----------------El bebeto---------*/
+}
+#menu li a #icono3{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(07bebetoG.jpg);
+
+	border-radius:00px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono3{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+/*-----------------------La ejecutiva---------------*/
+
+}
+#menu li a #icono4{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(Ejecutiva.jpg);
+
+	border-radius:00px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;	
+	margin:20px; 
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono4{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+
+	/*-------------------La trakalosa----------------*/
+
+}
+#menu li a #icono5{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(Trakalosa-1.jpg);
+
+	border-radius:00px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono5{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+	/*-----------------------------------------La bucanera ---------------------*/
+
+
+}
+#menu li a #icono6{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(maxresdefault.jpg);
+
+	border-radius:00px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+
+	}
+#menu li a:hover #icono6{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+/*los buitres*/
+
+}
+#menu li a #icono7{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(akr5eqpceaex342.jpg);
+
+	border-radius:00px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono7{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+/*--------------------Marco flores---------*/
+}
+#menu li a #icono8{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(qwertyui.jpg);
+
+	border-radius:00px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono8{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+/*-----------------------------Los sebastianes--------------------------*/
+
+}
+#menu li a #icono9{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(sebastianes.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono9{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+	
+/*-----------------------------Rock--------------------------*/
+
+}
+#menu li a #icono10{
+	width:1060px;
+	height:80px;
+	display:block;
+	border-radius:50px;
+	float:left;
+	font-family:"Mesquite Std", Arial, Helvetica, sans-serif;
+	background:linear-gradient(top,#116419,#003cb8);
+	background:-moz-linear-gradient(top,#116419,#003cb8);
+	background:-o-linear-gradient(top,#116419,#003cb8);
+	background:-ms-linear-gradient(top,#000,#003cb8);
+	background:-webkit-linear-gradient(top,#000,#FFF);
+	font-size:80px;
+	color:#370DE7;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:8px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono10{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3)rotate(360deg);
+
+
+/*-------------------AC/DC------------------------*/
+}
+#menu li a #icono11{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(1.jpg);
+
+	border-radius:00px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono11{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+
+
+	/*-------------------Allison------------------------*/
+
+}
+#menu li a #icono13{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(2.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono13{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+
+	/*-------------------The Orwells------------------------*/
+
+}
+#menu li a #icono14{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(othervoices.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono14{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+
+	/*-------------------The Beatles------------------------*/
+
+}
+#menu li a #icono15{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(b0c82f625bd0676beb2d4c810fa27309.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono15{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+
+	/*-------------------Tame Impala------------------------*/
+
+}
+#menu li a #icono16{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(12592683_10153372212480777_6567048342588719659_n.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono16{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+	/*-------------------System Of A Down------------------------*/
+
+}
+#menu li a #icono17{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(system-of-a-down-2011.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono17{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+/*-------------------- Los caligaris--------------------------*/
+
+}
+#menu li a #icono18{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(8468218.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono18{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+	
+
+	/*-------------------- Molotov--------------------------*/
+
+}
+#menu li a #icono19{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(images.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono19{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+
+	/*----------pink floyd------------------*/
+
+	}
+#menu li a #icono20{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(banda-medium.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono20{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
+
+
+	
+
+/*-----------------------------Rege-------------------------*/
+
+}
+#menu li a #icono21{
+	width:1060px;
+	height:80px;
+	display:block;
+	border-radius:50px;
+	float:left;
+	font-family:"Dayton", Arial, Helvetica, sans-serif;
+	background:linear-gradient(top,#003cb8,#FFF);
+	background:-moz-linear-gradient(top,#003cb8,#FFF);
+	background:-o-linear-gradient(top,#003cb8,#FFF);
+	background:-ms-linear-gradient(top,#003cb8,#FFF);
+	background:-webkit-linear-gradient(top,#003cb8,#FFF);
+	font-size:40px;
+	color:#000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:8px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono21{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3)rotate(360deg);
+
+/*--------------------Zona Ganjah--------------------------*/
+
+}
+#menu li a #icono22{
+	width:180px;
+	height:80px;
+	display:block;
+	background:url(7dBvY8hX_400x400.jpg);
+
+	border-radius:0px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:20px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.20s;
+	-moz-transition:-moz-transform 0.20s;
+	-ms-transition:-ms-transform 0.20s;
+	-o-transition:-o-transform 0.20s;
+	-webkit-transition:-webkit-transform 0.20s;
+	}
+#menu li a:hover #icono22{
+	transform:scale(1.3,1.3) ;
+	-moz-transform:scale(1.3,1.3);
+	-o-transform:scale(1.3,1.3);
+	-ms-transform:scale(1.3,1.3);
+	-webkit-transform:scale(1.3,1.3);
